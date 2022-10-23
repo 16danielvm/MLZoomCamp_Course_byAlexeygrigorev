@@ -1,0 +1,9 @@
+service: "service.py:svc"
+labels:
+  owner: damv
+  projecto: gallery
+include:
+- "*.py"
+python:
+  packages:
+    - sklearn
